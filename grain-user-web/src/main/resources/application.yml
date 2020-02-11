@@ -1,0 +1,26 @@
+server:
+  port: 8100
+
+
+spring:
+  #dubbo 配置
+  dubbo:
+    #服务名称
+    application: user-web
+    #dubbo的通信协议
+    protocol:
+      name: dubbo
+      #zk注册中心
+    registry:
+      address: 192.168.33.12:2181
+      #zk通信协议
+      protocol: zookeeper
+    base-package: com.grain
+    consumer:
+      timeout: 10000
+      check: false
+#日志级别
+logging:
+  level:
+    root: info
+

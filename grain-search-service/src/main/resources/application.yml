@@ -1,0 +1,39 @@
+server:
+  port: 8400
+
+#数据库连接
+spring:
+  elasticsearch:
+    jest:
+      uris: http://192.168.33.13:9200
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.33.12:3306/GrainMin?characterEncoding=UTF-8&useSSL=false
+    #dubbo 配置
+  dubbo:
+    #服务名称
+    application: search-service
+    #dubbo的通信协议
+    protocol:
+      name: dubbo
+      #zk注册中心
+    registry:
+      address: 192.168.33.12:2181
+      #zk通信协议
+      protocol: zookeeper
+    base-package: com.grain
+  redis:
+    port: 6379
+    host: 192.168.33.13
+    database: 0
+#mybatis配置
+mybatis:
+  mapper-locations: classPath*:/mapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    root: info
+

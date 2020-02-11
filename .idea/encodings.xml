@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/fastdfs-client-java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastdfs-client-java/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastdfs-client-java/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-cart-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-cart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-cart-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-cart-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-common-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-item-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-item-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-manage-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-manage-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-manage-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-manage-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-order-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-passport-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-payment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-search-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-search-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-search-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-service-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-service-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-user-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-user-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-web-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/grain-web-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/graninuser" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/graninuser/src/main/java" charset="UTF-8" />
+  </component>
+</project>

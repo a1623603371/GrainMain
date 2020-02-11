@@ -1,0 +1,35 @@
+server:
+  port: 8500
+fdfs:
+  service-ip: http://192.168.33.12
+
+spring:
+  #dubbo 配置
+  dubbo:
+    #服务名称
+    application: search-web
+    #dubbo的通信协议
+    protocol:
+      name: dubbo
+      #zk注册中心
+    registry:
+      address: 192.168.33.12:2181
+      #zk通信协议
+      protocol: zookeeper
+    base-package: com.grain
+    consumer:
+      timeout: 10000
+      check: false
+  thymeleaf:
+    #热部署
+    cache: false
+    mode: LEGACYHTML5
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    content-type: text/html
+#日志级别
+logging:
+  level:
+    root: info
+

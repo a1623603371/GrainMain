@@ -1,0 +1,41 @@
+server:
+  port: 9000
+
+#数据库连接
+spring:
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.33.12:3306/GrainMin?characterEncoding=UTF-8&useSSL=false
+    #dubbo 配置
+  dubbo:
+    #服务名称
+    application: manage-service
+    #dubbo的通信协议
+    protocol:
+      name: dubbo
+      #zk注册中心
+    registry:
+      address: 192.168.33.12:2181
+      #zk通信协议
+      protocol: zookeeper
+    base-package: com.grain
+  redis:
+    port: 6379
+    host: 192.168.33.13
+    database: 0
+  activemq:
+    broker-url: tcp:192.168.33.12:61616
+activemq:
+  listener:
+    enable: true
+#mybatis配置
+mybatis:
+  mapper-locations: classPath*:com/grain/manage/mapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    root: info
+
